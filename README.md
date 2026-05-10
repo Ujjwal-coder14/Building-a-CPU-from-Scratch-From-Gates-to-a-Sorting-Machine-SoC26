@@ -32,6 +32,7 @@ sort algorithm on a real array in memory.
 
 ## Resources
 
+- Spehen Brown and Zvonko Vranesic - *Fundamentals of Digital Logic with Verilog Design*
 - Patterson & Hennessy — *Computer Architecture - A quantitave approach*
 - i281 CPU spec, lecture slides — see `/resources`
 
