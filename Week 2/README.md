@@ -113,8 +113,8 @@ Sometimes the $\oplus$, which is used to represent xor, is synonymously used as 
 
 $$ a \^ b = a \oplus b = (a+b)mod2$$
 
-Also, we can almost use the same hardware for the subtractor as the adder. You just have to feed in the 2's complement of the thing so it'll be a + (~b+1);
-And also, you don't really need to instantiate the half and full adders manually, a much simpler way is the following;
+Also, we can almost use the same hardware for the subtractor as the adder. You just have to feed in the 2's complement of the thing so it'll be (a + (~b+1));
+And also, you don't really need to instantiate the half and full adders manually for n-bit operations, a much simpler way is the following;
 
 ```verilog
 module 4bit_adder(
